@@ -1,0 +1,34 @@
+{
+  "name": "tiroir",
+  "version": "0.0.1",
+  "description": "My personal, library resilient, pure js toolbox.",
+  "module": "src/index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:watch": "npm run test -- --watch",
+    "test:debug": "NODE_OPTIONS='--inspect-brk --experimental-vm-modules' jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieucivel/tiroir.git"
+  },
+  "keywords": [
+    "javascript",
+    "pure"
+  ],
+  "author": "Mathieu Civel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathieucivel/tiroir/issues"
+  },
+  "homepage": "https://github.com/mathieucivel/tiroir#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3"
+  }
+}

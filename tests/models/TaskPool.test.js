@@ -1,6 +1,6 @@
-import {TaskPool} from '../../src/index';
-import {Task} from '../../src/index';
-import {delay} from '../../src/index';
+import {TaskPool} from '../../src/index.js';
+import {Task} from '../../src/index.js';
+import {delay} from '../../src/index.js';
 
 const delayTask = Task(async ms => delay(ms));
 

@@ -1,7 +1,7 @@
 //TODO check efficiently for id collision
 //TODO check efficiently for cycles
 
-import {Enum} from './Enum';
+import {Enum} from './Enum.js';
 
 export const TREE_TRAVERSE_MODES = Enum({
   PRE_ORDER: 'pre-order',  //root, children

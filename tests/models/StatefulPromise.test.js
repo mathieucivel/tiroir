@@ -1,5 +1,5 @@
-import {StatefulPromise} from '../../src/index';
-import {delay} from '../../src/index';
+import {StatefulPromise} from '../../src/index.js';
+import {delay} from '../../src/index.js';
 
 test('should have correct states when pending', () => {
   const stp = StatefulPromise(delay(20));

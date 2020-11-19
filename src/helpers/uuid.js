@@ -1,4 +1,4 @@
-import {bufferToHex} from './buffer';
+import {bufferToHex} from './buffer.js';
 
 /**
  * Generates a new random UUID.

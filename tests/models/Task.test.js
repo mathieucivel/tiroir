@@ -1,5 +1,5 @@
-import {Task} from '../../src/index';
-import {delay} from '../../src/index';
+import {Task} from '../../src/index.js';
+import {delay} from '../../src/index.js';
 
 test('should return an object with a run method', () => {
   const task = Task(() => delay(20));

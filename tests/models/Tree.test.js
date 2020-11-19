@@ -1,4 +1,4 @@
-import {Tree, TREE_MOVE_MODES, TREE_TRAVERSE_MODES} from '../../src/index';
+import {Tree, TREE_MOVE_MODES, TREE_TRAVERSE_MODES} from '../../src/index.js';
 
 
   const TREE = [

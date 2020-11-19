@@ -1,4 +1,4 @@
-import {isNumeric} from '../helpers/types';
+import {isNumeric} from '../helpers/types.js';
 
 /**
  * Represents a numerical range.

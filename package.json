@@ -1,6 +1,6 @@
 {
   "name": "tiroir",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My personal, library resilient, pure js toolbox.",
   "main": "src/index.js",
   "module": "src/index.js",

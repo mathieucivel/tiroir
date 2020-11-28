@@ -10,3 +10,7 @@ export function flattenObject(object, prefix = '') {
     {},
   );
 }
+
+export function cloneObject(object) {
+  return JSON.parse(JSON.stringify(object))
+}
